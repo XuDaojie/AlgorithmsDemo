@@ -14,14 +14,16 @@ C/C++ 数据结构
 10. 函数无法识别结构体的不完整声明，但另一个结构体中可识别
 11. 结构体中带指针的变量不能用`=`赋值，而要使用`memcpy()`函数
 12. 返回值返回的是元数据的一份拷贝,所以返回结构体时需要返回指针。
-13. `typedef`将类型进行重命名。
-14. [`malloc()`动态分配内存空间](http://c.biancheng.net/cpp/html/137.html)
+13. 函数参数传递也是元数据的一份拷贝。
+14. `typedef`将类型进行重命名。
+15. [`malloc()`动态分配内存空间](http://c.biancheng.net/cpp/html/137.html)
 
     ``` c
     // 分配Node所需要的空间，并将首地值赋值给指针。
     // 此函数返回的类型为**void ***,所以使用时通常需要进行强制转换。
     struct Node node = (struct Node *) malloc(sizeof(struct Node*));
     ```
+16. C语言中数组数组在声明时就必须得指定长度。
 
 ## C++
 1. C++
