@@ -24,6 +24,7 @@ C/C++ 数据结构
     struct Node node = (struct Node *) malloc(sizeof(struct Node*));
     ```
 16. C语言中数组数组在声明时就必须得指定长度。
+17. 数组传递时实际传递的是数组的指针.
 
 ## C++
 1. C++
