@@ -44,7 +44,12 @@ void test() {
     int sourceArray[] = {1, 4, 5, 6, 8, 11, 13};
     int sourceLength = sizeof(sourceArray) / sizeof(sourceLength);
     int index = binarySearch(sourceArray, sourceLength, 8);
-    printf("index %d\n", index);
+    if (index == -1)
+    {
+        
+    } else {
+        printf("index %d\n", index);
+    }
 }
 
 int main(int argc, char const *argv[])
