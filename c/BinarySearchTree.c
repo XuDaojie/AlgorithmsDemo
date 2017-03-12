@@ -13,6 +13,7 @@ struct BinaryTree* createBinaryTree();
 void add(struct BinaryTree *tree, Value value);
 int compare(Value val1, Value val2);
 void addNode(struct Node *pMayParent, struct Node* pNewNode); // 通过递归增加子节点
+void printTree(struct BinaryTree *tree);
 
 struct Node
 {
