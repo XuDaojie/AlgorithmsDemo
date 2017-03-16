@@ -126,3 +126,4 @@ fabric.properties
 
 # Add
 .idea
+!*.jar
