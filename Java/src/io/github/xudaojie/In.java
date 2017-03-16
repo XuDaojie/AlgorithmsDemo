@@ -7,7 +7,9 @@
  *
  ******************************************************************************/
 
-package edu.princeton.cs.algs4;
+package io.github.xudaojie;
+
+import edu.princeton.cs.algs4.*;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -610,7 +612,7 @@ public final class In {
      * an array of integers.
      *
      * @return     the integers on standard input
-     * @deprecated Replaced by {@link StdIn#readAllInts()}.
+     * @deprecated Replaced by {@link edu.princeton.cs.algs4.StdIn#readAllInts()}.
      */
     @Deprecated
     public static int[] readInts() {
@@ -622,7 +624,7 @@ public final class In {
      * an array of doubles.
      *
      * @return     the doubles on standard input
-     * @deprecated Replaced by {@link StdIn#readAllDoubles()}.
+     * @deprecated Replaced by {@link edu.princeton.cs.algs4.StdIn#readAllDoubles()}.
      */
     @Deprecated
     public static double[] readDoubles() {
@@ -634,7 +636,7 @@ public final class In {
      *  an array of strings.
      *
      * @return     the strings on standard input
-     * @deprecated Replaced by {@link StdIn#readAllStrings()}.
+     * @deprecated Replaced by {@link edu.princeton.cs.algs4.StdIn#readAllStrings()}.
      */
     @Deprecated
     public static String[] readStrings() {

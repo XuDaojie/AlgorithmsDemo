@@ -7,7 +7,9 @@
  *
  ******************************************************************************/
 
-package edu.princeton.cs.algs4;
+package io.github.xudaojie;
+
+import edu.princeton.cs.algs4.*;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -44,7 +46,7 @@ import java.util.Locale;
  *  <li> {@code StdOut} coerces the character-set encoding to UTF-8,
  *       which is a standard character encoding for Unicode.
  *  <li> {@code StdOut} coerces the locale to {@link Locale#US},
- *       for consistency with {@link StdIn}, {@link Double#parseDouble(String)},
+ *       for consistency with {@link edu.princeton.cs.algs4.StdIn}, {@link Double#parseDouble(String)},
  *       and floating-point literals.
  *  <li> {@code StdOut} <em>flushes</em> standard output after each call to
  *       {@code print()} so that text will appear immediately in the terminal.
