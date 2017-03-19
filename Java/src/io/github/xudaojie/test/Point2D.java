@@ -5,6 +5,9 @@ import io.github.xudaojie.StdRandom;
 
 import java.awt.*;
 
+/**
+ * 1.2.1
+ */
 public final class Point2D {
     private double x = 0.0;
     private double y = 0.0;
