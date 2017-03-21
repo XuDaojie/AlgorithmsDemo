@@ -9,6 +9,7 @@ import java.util.Stack;
  * Created by xdj on 2017/3/18.
  */
 public class MainTest {
+
     public static void main(String[] args) {
 //        System.out.println(1 > Double.POSITIVE_INFINITY);
 //        System.out.println('b' + 'c'); // char 参与运算时会被转化成int
