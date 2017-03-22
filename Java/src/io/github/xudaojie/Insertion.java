@@ -29,7 +29,7 @@ public class Insertion {
     }
 
     public static void main(String[] args) {
-        Integer[] integers = new Integer[] {5, 1, 2, 11, 32, 3, 56, 4};
+        Integer[] integers = new Integer[] {5, 1, 2, 11, 32, 4, 56, 3};
         sort(integers);
         for (Integer i :
                 integers) {
