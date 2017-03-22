@@ -23,6 +23,8 @@ public class MainTest {
 //        StdOut.println(string1);
 //        StdOut.println(string2);
 
+        Runtime.getRuntime().availableProcessors();
+
         autoBinPacking();
     }
 
